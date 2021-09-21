@@ -1,0 +1,19 @@
+{
+  "name": "galerie-docs",
+  "version": "0.0.1",
+  "description": "Galerie Ghost Theme Official Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Eduardo Gómez",
+    "email": "this.eduardo@gmail.com"
+  },
+  "repository": "https://github.com/eddiesigner/galerie-docs/Galerie Ghost Theme",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
