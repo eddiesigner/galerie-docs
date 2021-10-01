@@ -7,13 +7,14 @@
     "name": "Eduardo Gómez",
     "email": "this.eduardo@gmail.com"
   },
-  "repository": "https://github.com/eddiesigner/galerie-docs/Galerie Ghost Theme",
+  "repository": "https://github.com/eddiesigner/galerie-docs",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
     "vuepress": "^1.5.3"
   }
 }

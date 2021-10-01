@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /logo.png
 tagline: Galerie Ghost Theme Official Documentation
-actionText: Quick Start →
+actionText: Get started →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Modern & Versatile
+  details: It stands out for its sleek design, it's incredibly fast, it offers a great user experience and it has many options to customise it.
+- title: Members-ready
+  details: Full Members and subscriptions support (yes, with this theme you can turn your audience into a business).
+- title: Dark Mode
+  details: Galerie features a beautiful light theme and a gorgeous dark theme, it offers the option to switch between them based on the user preferences.
 footer: Made by Eduardo Gómez with ❤️
 ---
