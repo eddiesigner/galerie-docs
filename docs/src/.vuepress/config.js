@@ -56,18 +56,30 @@ module.exports = {
         link: 'https://gum.co/ZXLha'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    sidebar: [
+      {
+        title: 'Guide',
+        collapsable: false,
+        children: [
+          '/guide/',
+          '/guide/install-theme',
+          '/guide/update-theme',
+          '/guide/theme-structure',
+          '/guide/publication-settings',
+          '/guide/navigation',
+          '/guide/members',
+          '/guide/newsletter',
+          '/guide/search',
+          '/guide/authors-page',
+          '/guide/tags-page',
+          '/guide/comments',
+          '/guide/table-of-contents',
+          '/guide/theme-translation',
+          '/guide/dark-mode',
+          '/guide/theme-development',
+        ]
+      }
+    ]
   },
 
   /**
@@ -75,6 +87,6 @@ module.exports = {
    */
   plugins: [
     '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
+    '@vuepress/medium-zoom',
   ]
 }

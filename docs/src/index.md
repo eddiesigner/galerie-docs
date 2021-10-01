@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /logo.png
-tagline: Galerie Ghost Theme Official Documentation
+tagline: Official Documentation
 actionText: Get started →
 actionLink: /guide/
 features:
