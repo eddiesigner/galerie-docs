@@ -69,14 +69,15 @@ module.exports = {
           '/guide/navigation',
           '/guide/members',
           '/guide/newsletter',
-          '/guide/search',
           '/guide/authors-page',
           '/guide/tags-page',
-          '/guide/comments',
+          '/guide/error-page',
           '/guide/table-of-contents',
+          '/guide/comments',
           '/guide/theme-translation',
-          '/guide/dark-mode',
+          '/guide/theme-mode',
           '/guide/theme-development',
+          '/guide/resources'
         ]
       }
     ]
