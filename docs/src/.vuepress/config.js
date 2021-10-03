@@ -58,26 +58,38 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'Guide',
+        title: 'The Basics',
         collapsable: false,
         children: [
-          '/guide/',
-          '/guide/install-theme',
-          '/guide/update-theme',
-          '/guide/theme-structure',
-          '/guide/publication-settings',
-          '/guide/navigation',
-          '/guide/members',
-          '/guide/newsletter',
-          '/guide/authors-page',
-          '/guide/tags-page',
-          '/guide/error-page',
-          '/guide/table-of-contents',
-          '/guide/comments',
-          '/guide/theme-translation',
-          '/guide/theme-mode',
-          '/guide/theme-development',
-          '/guide/resources'
+          '/basics/',
+          '/basics/install-theme',
+          '/basics/update-theme',
+          '/basics/theme-structure',
+          '/basics/publication-settings',
+          '/basics/navigation',
+        ]
+      },
+      {
+        title: 'The Essentials',
+        collapsable: false,
+        children: [
+          '/essentials/members',
+          '/essentials/newsletter',
+          '/essentials/authors-page',
+          '/essentials/tags-page',
+          '/essentials/error-page',
+          '/essentials/table-of-contents',
+          '/essentials/comments',
+          '/essentials/theme-translation',
+          '/essentials/theme-mode'
+        ]
+      },
+      {
+        title: 'Additional Notes',
+        collapsable: false,
+        children: [
+          '/additional-notes/theme-development',
+          '/additional-notes/resources'
         ]
       }
     ]

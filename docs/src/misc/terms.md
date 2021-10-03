@@ -32,7 +32,7 @@ Support DOES NOT include:
 * Integrating theme updates
 * Theme customization beyond the supported features
 
-The [documentation](/guide/) describes the steps to follow to get the most out of this theme, if for any reason you don't find an answer to any question, don't hesitate to contact me via [email](mailto:this.eduardo@gmail.com), I try to respond as soon as possible, no longer than one business day later.
+The [documentation](/basics/) describes the steps to follow to get the most out of this theme, if for any reason you don't find an answer to any question, don't hesitate to contact me via [email](mailto:this.eduardo@gmail.com), I try to respond as soon as possible, no longer than one business day later.
 
 ## Payment
 

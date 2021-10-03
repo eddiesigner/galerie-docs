@@ -2,8 +2,8 @@
 home: true
 heroImage: /logo.png
 tagline: Official Documentation
-actionText: Get started →
-actionLink: /guide/
+actionText: Get Started →
+actionLink: /basics/
 features:
 - title: Modern & Versatile
   details: It stands out for its sleek design, it's incredibly fast, it offers a great user experience and it has many options to customise it.
