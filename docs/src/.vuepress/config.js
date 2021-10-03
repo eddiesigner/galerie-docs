@@ -88,6 +88,9 @@ module.exports = {
         title: 'Additional Notes',
         collapsable: false,
         children: [
+          '/additional-notes/post-page-templates',
+          '/additional-notes/social-icons',
+          '/additional-notes/tables-forms',
           '/additional-notes/theme-development',
           '/additional-notes/resources'
         ]
