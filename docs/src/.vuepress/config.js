@@ -67,12 +67,15 @@ module.exports = {
           '/basics/theme-structure',
           '/basics/publication-settings',
           '/basics/navigation',
+          '/basics/content-api-key',
         ]
       },
       {
         title: 'The Essentials',
         collapsable: false,
         children: [
+          '/essentials/home-template',
+          '/essentials/theme-options',
           '/essentials/members',
           '/essentials/newsletter',
           '/essentials/authors-page',
