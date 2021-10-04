@@ -1,4 +1,4 @@
-# Posts Layout
+# Posts Tiles Layout
 
 With Galerie it is possible to display the list of articles in more than one way, by default the articles are displayed following a mosaic layout (**Default**) but they can also be displayed in three additional layouts: **Two Columns**, **Grid** and **Insta Layout**.
 

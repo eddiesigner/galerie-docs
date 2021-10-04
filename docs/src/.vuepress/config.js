@@ -75,7 +75,7 @@ module.exports = {
         collapsable: false,
         children: [
           '/essentials/home-template',
-          '/essentials/posts-layout',
+          '/essentials/posts-tiles-layout',
           '/essentials/theme-options',
           '/essentials/members',
           '/essentials/newsletter',

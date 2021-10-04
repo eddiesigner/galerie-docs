@@ -24,23 +24,49 @@ If you don't want to show Facebook and Twitter links just delete the default lin
 
 In the **Branding Settings** of the Ghost Admin you can change the Publication icon and the Publication logo as well.
 
-**Accent Color**
+### Accent Color
 
 This is the primary color that the theme uses to highlight certain elements such as buttons or some borders. To change the color you can enter a hexadecimal value or you can click on the small square that appears in the options to select it visually.
 
 For example, the Galerie blog demo uses `#7209b7` as the accent color.
 
-**Publication Icon**
+::: warning
+Since only one color can be chosen in the Ghost Admin you must make sure that the color you choose is visible in both the light and dark modes of the theme and also that the contrast between the color and the font color allows the font to be legible.
+:::
+
+### Publication Icon
 
 The icon or _favicon_ is a small image that can be seen in the browser tab, next to the title. You can change the icon in this section.
 
-**Publication Logo**
+### Publication Logo
 
 Ghost by default includes a white logo, I recommend you to remove it and upload your own logo. You can do this in the **Publication logo** field located in this section.
 
 In case you delete the default logo and don't upload any logo of your own, the theme will show the publication title instead.
 
-**Publication Cover**
+If you decide to use an image as logo it is recommended that it is in PNG or SVG format and that it is in black and white or grayscale since this theme inverts the color of the logo in the dark mode so that it has enough contrast in relation to the background color.
+
+You can see an example of this in the following screenshots:
+
+**Light mode**
+
+![Light logo](https://res.cloudinary.com/edev/image/upload/v1633377807/galerie/light-logo.png)
+
+**Dark mode**
+
+![Dark logo](https://res.cloudinary.com/edev/image/upload/v1633377806/galerie/dark-logo.png)
+
+If the color of the logo you use works well in both light and dark mode you may want to prevent the theme from inverting its color, to do this you can inject the following code in the Ghost Admin:
+
+```html
+<style>
+  [theme-mode="dark"] {
+    --logo-invert-color: 0; /* The default value is 1 */
+  }
+</style>
+```
+
+### Publication Cover
 
 You can also change the cover which is shown in the first section of the home page. To change it just delete the default image in the **Publication Cover** field and upload the image you want.
 
