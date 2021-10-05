@@ -53,7 +53,7 @@ module.exports = {
       },
       {
         text: 'Get Galerie',
-        link: 'https://gum.co/ZXLha'
+        link: 'https://eddiesigner.gumroad.com/l/KgroF'
       }
     ],
     sidebar: [
