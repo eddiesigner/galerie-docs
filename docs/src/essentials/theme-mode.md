@@ -20,6 +20,7 @@ The color palette of the Light mode is as follows:
     --foreground: hsl(0, 0%, 7%);
     --background: hsl(0, 0%, 100%);
     --header-background: rgba(255, 255, 255, 0.5);
+    --gradient-card-background: rgba(255, 255, 255, 0);
     --light-background: hsl(0, 0%, 91%);
     --light-secondary-background: hsl(0, 0%, 98%);
     --accent-color: hsl(0, 0%, 7%);
@@ -51,6 +52,7 @@ The color palette of the Dark mode is as follows:
     --foreground: hsl(240, 25%, 98%);
     --background: hsl(245, 17%, 12%);
     --header-background: rgba(27, 26, 37, 0.5);
+    --gradient-card-background: rgba(26, 25, 36, 0);
     --light-background: hsl(225, 13%, 18%);
     --light-secondary-background: hsl(225, 13%, 8%);
     --accent-color: hsl(240, 25%, 98%);

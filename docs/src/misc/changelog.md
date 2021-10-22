@@ -1,5 +1,19 @@
 # Change Log
 
+## v1.0.2
+
+> 22/10/2021
+
+* Fixes an issue in Safari where the gradient styling of tag cards was displayed incorrectly.
+
+```
+Modified files:
+
+package.json
+src/sass/common/_theme.scss
+src/sass/components/tags/_tag-card.scss
+```
+
 ## v1.0.1
 
 > 13/10/2021
