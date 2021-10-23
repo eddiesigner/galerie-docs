@@ -1,5 +1,21 @@
 # Change Log
 
+## v1.0.3
+
+> 23/10/2021
+
+* Correctly loads posts after pressing the "Load More" button when they don't have a tag assigned to them.
+
+* Correctly displays the featured image of each post after pressing the "Load More" button when they come directly from Unsplash.
+
+```
+Modified files:
+
+package.json
+partials/loop.hbs
+partials/post-card.hbs
+```
+
 ## v1.0.2
 
 > 22/10/2021
