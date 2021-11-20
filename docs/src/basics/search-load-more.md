@@ -1,4 +1,4 @@
-# Content API Key
+# Search and Load More Posts
 
 Galerie uses the [Ghost Content API](https://ghost.org/docs/content-api/) to load more articles by pressing the corresponding button and to make the search work, because of this it is _very important_ that you don't forget to configure a special key that the Ghost Content API needs to work properly.
 

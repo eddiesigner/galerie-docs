@@ -65,9 +65,9 @@ module.exports = {
           '/basics/install-theme',
           '/basics/update-theme',
           '/basics/theme-structure',
+          '/basics/search-load-more',
           '/basics/publication-settings',
           '/basics/navigation',
-          '/basics/content-api-key',
         ]
       },
       {
