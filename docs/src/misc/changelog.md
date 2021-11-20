@@ -1,5 +1,21 @@
 # Change Log
 
+## v1.0.4
+
+> 20/11/2021
+
+* Support for multiple authors in posts
+
+```
+Modified files:
+
+locales/en.json
+locales/es.json
+package.json
+partials/post-header.hbs
+src/sass/components/post/_post-header.scss
+```
+
 ## v1.0.3
 
 > 23/10/2021
