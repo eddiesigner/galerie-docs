@@ -1,5 +1,26 @@
 # Change Log
 
+## v1.0.5
+
+> 27/11/2021
+
+* Uses the proper translations for the sharing buttons
+* Renames the font files in `woff2` format so that they can be loaded correctly by the browser.
+
+```
+Modified files:
+
+package.json
+partials/post-share.hbs
+
+Renamed files:
+
+src/sass/fonts/atkinson/Atkinson-Hyperlegible-Bold-102a.woff2 --> src/sass/fonts/atkinson/Atkinson-Hyperlegible-Bold-102.woff2
+src/sass/fonts/atkinson/Atkinson-Hyperlegible-BoldItalic-102a.woff2 --> src/sass/fonts/atkinson/Atkinson-Hyperlegible-BoldItalic-102.woff2
+src/sass/fonts/atkinson/Atkinson-Hyperlegible-Italic-102a.woff2 --> src/sass/fonts/atkinson/Atkinson-Hyperlegible-Italic-102.woff2
+src/sass/fonts/atkinson/Atkinson-Hyperlegible-Regular-102a.woff2 --> src/sass/fonts/atkinson/Atkinson-Hyperlegible-Regular-102.woff2
+```
+
 ## v1.0.4
 
 > 20/11/2021
