@@ -10,12 +10,12 @@ If you want to enable it in certain posts you can do it as follows:
 
 2. Open the post settings and scroll all the way down.
 
-3. Select **Post Toc** as the template:
+3. Select **Toc** as the template:
 
-![TOC Template](https://res.cloudinary.com/edev/image/upload/v1633183026/galerie/toc-template.png)
+![TOC Template](https://res.cloudinary.com/edev/image/upload/v1643463650/galerie/CleanShot_2022-01-29_at_14.40.15.png)
 
 4. Save the changes.
 
 ::: tip
-You can also display a Table Of Contents in pages, in this case you must select **Page Toc** as the template.
+You can also use this template in pages as well.
 :::

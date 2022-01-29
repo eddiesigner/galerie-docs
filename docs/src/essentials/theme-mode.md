@@ -55,8 +55,8 @@ The color palette of the Dark mode is as follows:
     --gradient-card-background: rgba(26, 25, 36, 0);
     --light-background: hsl(225, 13%, 18%);
     --light-secondary-background: hsl(225, 13%, 8%);
-    --accent-color: hsl(240, 25%, 98%);
-    --border: hsl(257, 15%, 20%);
+    --accent-color: hsl(32, 100%, 49%);
+    --border: hsl(228, 13%, 23%);
     --light-text: hsl(240, 25%, 78%);
   }
 </style>

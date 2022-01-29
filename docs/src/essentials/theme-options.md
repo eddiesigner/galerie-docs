@@ -37,7 +37,17 @@ It is important to note that this change will only take effect when loading a pa
 
 ## Disable Home Slider Autoplay
 
-By default the featured articles slider on the home page changes slides automatically every 5 seconds, if you want to disable that feature so that you can only change slides manually using the buttons or swiping you can do the following:
+By default the featured articles slider on the home page changes slides automatically every 5 seconds. You can of course disable this feature and let users change slides manually.
+
+If you're using Ghost 4.20.0 or later and Galerie 1.1.0 or later you can simply disable it in the theme design settings as shown bellow:
+
+![](https://res.cloudinary.com/edev/image/upload/v1643474533/galerie/CleanShot_2022-01-29_at_17.41.39.png)
+
+::: warning
+If you had previously disabled that option and now you prefer to disable it in the theme design settings please make sure to delete the code you injected otherwise an error will appear in the console because that variable had already been declared previously.
+:::
+
+If you're using a previous version please do the following instead:
 
 1. Inject the following code in the Ghost Admin (Settings --> Code injection --> Site Header):
 
@@ -57,7 +67,11 @@ Like other parts of the theme, this can also be configured.
 
 ![Post tile](https://res.cloudinary.com/edev/image/upload/v1633376347/galerie/tile.jpg)
 
-To always display the title and the rest of the post tile information you can inject the following code in the Ghost Admin:
+To always display the title and the rest of the post tile information you can enable the option "Always show post title" in the theme design seetings as shown bellow:
+
+![](https://res.cloudinary.com/edev/image/upload/v1643474900/galerie/CleanShot_2022-01-29_at_17.47.37.png)
+
+If you are not using Ghost 4.20.0 or later and Galerie 1.1.0 or later you can inject the following code in the Ghost Admin instead:
 
 ```html
 <style>
@@ -86,7 +100,11 @@ Below you can see an example of what this functionality looks like:
 
 ![Image lightbox](https://res.cloudinary.com/edev/image/upload/v1633338570/galerie/image-lightbox.jpg)
 
-If for some reason you wish to disable this feature completely you can do the following:
+If for some reason you wish to disable this feature completely you can do it in the theme design settings as shown bellow:
+
+![](https://res.cloudinary.com/edev/image/upload/v1643476370/galerie/CleanShot_2022-01-29_at_18.12.06.png)
+
+If you are not using Ghost 4.20.0 or later and Galerie 1.1.0 or later you can do the following instead:
 
 1. Inject the following code in the Ghost Admin (Settings --> Code injection --> Site Header):
 
@@ -126,6 +144,20 @@ The important thing about this is the class `float`.
 
 And as you may have noticed, at the moment this only works for images you add using HTML which means you will have to use images hosted somewhere else in order to get a public URL that you can use in the `src` attribute.
 
+## Use Normal Size For The First Letter
+
+By default the size of the first letter of the first paragraph of an article is significantly larger than the size of the rest of the characters, the theme emphasizes in this way the beginning of the text to make it a little more interesting and attract the reader's attention.
+
+![](https://res.cloudinary.com/edev/image/upload/v1643479210/galerie/CleanShot_2022-01-29_at_18.59.27.png)
+
+If for some reason you prefer the first letter to be the same size as the rest of the text, you can do so by enabling the "First letter in normal size" option in the theme design settings as shown bellow:
+
+![](https://res.cloudinary.com/edev/image/upload/v1643476412/galerie/CleanShot_2022-01-29_at_18.13.00.png)
+
+::: warning
+This option is only available if you're using Ghost 4.20.0 or later and Galerie 1.1.0 or later.
+:::
+
 ## Configure Loading Animation
 
 When loading any page Galerie displays a quick transition to improve the user experience, it shows your publication's logo in the center and then an animation moves the page content slightly from bottom to top.
@@ -134,7 +166,11 @@ In the demo website it looks like this:
 
 ![Loading](https://res.cloudinary.com/edev/image/upload/v1633372198/galerie/loading.jpg)
 
-You can disable the loading animation if you wish, to do so you can inject the following style in the Ghost Admin:
+You can disable the loading animation in the theme design seetings as shown bellow:
+
+![](https://res.cloudinary.com/edev/image/upload/v1643475186/galerie/CleanShot_2022-01-29_at_17.52.20.png)
+
+If you are not using Ghost 4.20.0 or later and Galerie 1.1.0 or later you can inject the following code in the Ghost Admin instead:
 
 ```html
 <style>

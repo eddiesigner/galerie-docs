@@ -26,12 +26,16 @@ In the **Branding Settings** of the Ghost Admin you can change the Publication i
 
 ### Accent Color
 
-This is the primary color that the theme uses to highlight certain elements such as buttons or some borders. To change the color you can enter a hexadecimal value or you can click on the small square that appears in the options to select it visually.
+This is the primary color that the theme uses to highlight certain elements such as buttons, indicators, hover states and others. To change the color you can enter a hexadecimal value or you can click on the small square that appears in the options to select it visually.
 
-For example, the Galerie blog demo uses `#7209b7` as the accent color.
+For example, Galerie uses `#121212` as the primary color in the live demo.
+
+Galerie also offers the option to set the accent color for the dark mode in case it doesn't quite blend well. You can set the accent color for dark mode in the theme design settings as shown below:
+
+![](https://res.cloudinary.com/edev/image/upload/v1643460047/galerie/CleanShot_2022-01-29_at_13.39.47.png)
 
 ::: warning
-Since only one color can be chosen in the Ghost Admin you must make sure that the color you choose is visible in both the light and dark modes of the theme and also that the contrast between the color and the font color allows the font to be legible.
+The accent color for dark mode is only available if you're using Ghost 4.20.0 or later and Galerie 1.1.0 or later.
 :::
 
 ### Publication Icon
@@ -42,29 +46,17 @@ The icon or _favicon_ is a small image that can be seen in the browser tab, next
 
 Ghost by default includes a white logo, I recommend you to remove it and upload your own logo. You can do this in the **Publication logo** field located in this section.
 
-In case you delete the default logo and don't upload any logo of your own, the theme will show the publication title instead.
+If your logo does not look good in dark mode, you can upload an additional logo to be displayed when dark mode is activated. You can upload your second logo in the theme design settings as shown below:
 
-If you decide to use an image as logo it is recommended that it is in PNG or SVG format and that it is in black and white or grayscale since this theme inverts the color of the logo in the dark mode so that it has enough contrast in relation to the background color.
+![](https://res.cloudinary.com/edev/image/upload/v1643460501/galerie/CleanShot_2022-01-29_at_13.46.44.png)
 
-You can see an example of this in the following screenshots:
+::: tip
+If you don't upload a logo the theme will use the title of your publication as logo, which will be displayed correctly in both light mode and dark mode.
+:::
 
-**Light mode**
-
-![Light logo](https://res.cloudinary.com/edev/image/upload/v1633377807/galerie/light-logo.png)
-
-**Dark mode**
-
-![Dark logo](https://res.cloudinary.com/edev/image/upload/v1633377806/galerie/dark-logo.png)
-
-If the color of the logo you use works well in both light and dark mode you may want to prevent the theme from inverting its color, to do this you can inject the following code in the Ghost Admin:
-
-```html
-<style>
-  [theme-mode="dark"] {
-    --logo-invert-color: 0; /* The default value is 1 */
-  }
-</style>
-```
+::: warning
+The second logo option is only available if you're using Ghost 4.20.0 or later and Galerie 1.1.0 or later.
+:::
 
 ### Publication Cover
 

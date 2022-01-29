@@ -37,6 +37,7 @@ You can see a live demo here: [https://galerie.eduardogomez.io/](https://galerie
 * Table of Contents support in posts and pages
 * Custom Authors page
 * Custom Tags page
+* Custom Hero page
 * Custom Error page
 * Lightbox gallery for images in posts
 * Comments with Disqus (or any other platform)
@@ -45,13 +46,14 @@ You can see a live demo here: [https://galerie.eduardogomez.io/](https://galerie
 * Lazy load for images
 * Responsive video
 * Responsive tables
+* Icon pack
 * Atkinson Hyperlegible font, what makes it different from traditional typography design is that it focuses on letterform distinction to increase character recognition, ultimately improving readability
-* Additional icons for third-party platforms: Dribbble, Facebook, Google, Instagram, Linkedin, Medium, Pocket, Telegram, Tiktok, Twitter, Youtube, Github, RSS
 * Source code included so you can modify the theme as you want or build a new theme on top of it
 
 ### Ghost Features
 
 * Ghost 4 support
+* Custom settings support
 * Accent color support
 * Full Members and subscriptions support (yes, with this theme you can turn your audience into a business)
 * Public Previews support
@@ -69,6 +71,17 @@ You can see a live demo here: [https://galerie.eduardogomez.io/](https://galerie
 * Image card (normal, wide and full width)
 * Bookmark cards
 * Gallery cards
+* GIFs
+* Buttons
+* NFT card
+* Callouts
+* Toggles
+* Quotes
+* Products
+* Audio
+* Video
+* File uploads
+* Headers
 * Markdown cards
 * Facebook and Twitter social links
 * Reading time
@@ -86,7 +99,7 @@ You can see a live demo here: [https://galerie.eduardogomez.io/](https://galerie
 * Subscription tiers: Free, Monthly and Yearly
 * Cancel and continue subscription links
 * Option to edit billing info
-* Support for the following currencies: USD, AUD, CAD, EUR, GBP, INR
+* Support for all the currencies
 * Conceal all the Members links and buttons if the option is disabled in the Ghost Admin
 
 ## Help And Support

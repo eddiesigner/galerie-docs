@@ -28,7 +28,11 @@ limit="5" as |featured|
 
 ### Restore Featured Articles Slider
 
-If you decided to use the Hero Section instead of the Slider and now you want to return it to the way it was, you must do the following:
+If you decided to use the Hero Section instead of the Slider and now you want to return it to the way it was, you can choose this section in the theme design settings as shown below:
+
+![](https://res.cloudinary.com/edev/image/upload/v1643469408/galerie/CleanShot_2022-01-29_at_16.15.45.png)
+
+If you are not using Ghost 4.20.0 or later and Galerie 1.1.0 or later you can do the following instead:
 
 1. Unzip the theme folder.
 
@@ -55,7 +59,11 @@ The Hero Section is a simpler representation that does not show featured article
 
 ### Activate Hero Section
 
-If you do not want to show featured articles in the first section of the home page you can use the Hero Section instead, to activate it follow these steps:
+If you do not want to show featured articles in the first section of the home page you can use the Hero Section instead, you can choose this section in the theme design settings as shown bellow:
+
+![](https://res.cloudinary.com/edev/image/upload/v1643469780/galerie/CleanShot_2022-01-29_at_16.22.28.png)
+
+If you are not using Ghost 4.20.0 or later and Galerie 1.1.0 or later you can do the following instead:
 
 1. Unzip the theme folder.
 

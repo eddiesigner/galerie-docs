@@ -75,6 +75,7 @@ module.exports = {
         collapsable: false,
         children: [
           '/essentials/home-template',
+          '/essentials/custom-cta-button',
           '/essentials/posts-tiles-layout',
           '/essentials/theme-options',
           '/essentials/members',
@@ -92,8 +93,9 @@ module.exports = {
         title: 'Additional Notes',
         collapsable: false,
         children: [
+          '/additional-notes/footnote-override',
           '/additional-notes/post-page-templates',
-          '/additional-notes/social-icons',
+          '/additional-notes/icon-pack',
           '/additional-notes/tables-forms',
           '/additional-notes/theme-development',
           '/additional-notes/resources'

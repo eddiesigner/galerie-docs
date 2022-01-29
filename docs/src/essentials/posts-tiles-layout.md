@@ -32,7 +32,18 @@ There are two ways to change the layout of the articles to use any of the availa
 
 ### Globally
 
-If you want all pages to display articles using the same particular layout you can do the following:
+If you want all pages to display articles using the same particular layout you can choose the layout you prefer in the theme design settings as shown bellow:
+
+![](https://res.cloudinary.com/edev/image/upload/v1643470250/galerie/CleanShot_2022-01-29_at_16.30.06.png)
+
+As you can see, you can choose one of the different four layouts:
+
+* Mosaic (default)
+* Two columns
+* Grid
+* Insta
+
+If you are not using Ghost 4.20.0 or later and Galerie 1.1.0 or later you can do the following instead:
 
 1. Unzip the theme folder.
 
