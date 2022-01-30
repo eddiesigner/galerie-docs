@@ -2,7 +2,7 @@
 
 ## v1.1.0
 
-> 01/02/2022
+> 31/01/2022
 
 * Add support for new content cards: [https://ghost.org/changelog/cardmas/](https://ghost.org/changelog/cardmas/)
 * Custom settings support: [https://ghost.org/changelog/custom-design-settings/](https://ghost.org/changelog/custom-design-settings/)
