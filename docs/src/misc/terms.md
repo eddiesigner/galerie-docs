@@ -23,7 +23,7 @@ Support DOES include:
 * Answer your specific questions about the features and functionality of the theme
 * Provide some guidance on the way the theme is designed
 * Help you with issues related to using the theme and getting the most value out of its functionality
-* Answer questions about third party assets or functionality bundled with the thme, such as how they work and other technical questions
+* Answer questions about third party assets or functionality bundled with the theme, such as how they work and other technical questions
 * Assistance with reported bugs and issues
 
 Support DOES NOT include:
