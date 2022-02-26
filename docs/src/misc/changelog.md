@@ -1,5 +1,23 @@
 # Change Log
 
+## v1.1.1
+
+> 28/02/2022
+
+* Footnote override is now applied in the main menu as well
+* Table Of Contents now ignores non-wanted headings such as the new Headers cards
+* Small improvements in the way plans and subscriptions prices are displayed
+
+```
+Modified files:
+
+members/account.hbs
+package.json
+partials/membership.hbs
+partials/menu.hbs
+src/js/post.js
+```
+
 ## v1.1.0
 
 > 31/01/2022

@@ -44,11 +44,34 @@ The container with the class `g-table-container` is important, please do not for
 
 Galerie comes with styles for these form elements:
 
+* Button
 * Input text
 * Textarea
 * Select
 * Checkbox
 * Radio button
+
+### Button
+
+For a button or a link to have the styles of the theme you must add the `g-button` class to the element, you must also add the `no-appearance` class so that it looks good in all browsers, additionally you can add the `focusable` class to improve the accessibility of the button or link you want to use.
+
+```html
+<!-- Button -->
+<button class="g-button no-appearance focusable">
+  Button example
+</button>
+
+<!-- Link -->
+<a href="#" class="g-button no-appearance focusable">
+  Link button example
+</a>
+```
+
+### Input text and Textarea
+
+These elements already have styles defined out of the box so it's not necessary to do anything special to make them look as they appear in the style guide.
+
+### Select
 
 To add a **select** element correctly you should use a code like this one:
 
@@ -64,6 +87,8 @@ To add a **select** element correctly you should use a code like this one:
 ```
 
 The container with the class `g-select-container` is important, as well as the `span` element with the class `icon-nav-arrow-down`.
+
+### Checkbox and Radio button
 
 To add a **checkbox** or a **radio button** element correctly you should use some code like this one:
 
