@@ -1,5 +1,25 @@
 # Change Log
 
+## v1.1.3
+
+> 17/05/2022
+
+* Some small style issues with `mark` tags and social icons were fixed
+* Table Of Contents now ignores non-wanted headings such as the new Headers cards (fixed again due some Ghost updates)
+* The lightgallery plugin was updated to fix a couple of small issues
+
+```
+Modified files:
+
+package.json
+src/docker-compose.yml
+src/js/post.js
+src/package-lock.json
+src/package.json
+src/sass/components/common/_social-list.scss
+src/sass/components/post/_post-content.scss
+```
+
 ## v1.1.1
 
 > 28/02/2022
