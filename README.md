@@ -42,7 +42,7 @@ Galerie is a modern and versatile Ghost theme that stands out for its impeccable
 
 ### Ghost Features
 
-* Ghost 4 support
+* Ghost 5 support
 * Accent color support
 * Full Members and subscriptions support (yes, with this theme you can turn your audience into a business)
 * Public Previews support
@@ -69,6 +69,7 @@ Galerie is a modern and versatile Ghost theme that stands out for its impeccable
 ### Members And Subscriptions
 
 * Custom Membership page
+* Membership Tiers
 * Custom Account page for members
 * Custom Signup page
 * Custom Signin page

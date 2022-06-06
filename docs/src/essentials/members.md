@@ -88,6 +88,18 @@ Don't forget to replace `YOUR_SITE_URL` with your website's URL.
 
 Please make sure that the last part of each url matches its respective path in the `routes.yaml` file, otherwise it will not work.
 
+## Membership Tiers
+
+Ghost 5 allows you to offer multiple membership products, each with unique prices, benefits, and content access levels.
+
+A tiered pricing strategy makes it possible to grow your business by offering different products and benefits to your audience.
+
+**Galerie offers support for Tiers from version 2.0.0**, that means that if you use this version or a newer one you will be able to offer your users the different tiers that you configure in the Ghost Admin.
+
+If you want to know how to create and configure your own custom tiers you can check [the official documentation](https://ghost.org/help/tiers/). Your tiers will be automatically displayed on the **Membership** page.
+
+![Membership tiers](https://res.cloudinary.com/edev/image/upload/v1654527651/galerie/CleanShot_2022-06-06_at_17.00.27.png)
+
 ## Portal
 
 [Portal](https://ghost.org/changelog/portal/) is a new feature that comes enabled by default in the latest versions of Ghost, among some of its options is the option to display a button to subscribe which is visible on all pages of your site.

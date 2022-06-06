@@ -52,7 +52,7 @@ You can see a live demo here: [https://galerie.eduardogomez.io/](https://galerie
 
 ### Ghost Features
 
-* Ghost 4 support
+* Ghost 5 support
 * Custom settings support
 * Accent color support
 * Full Members and subscriptions support (yes, with this theme you can turn your audience into a business)
@@ -91,6 +91,7 @@ You can see a live demo here: [https://galerie.eduardogomez.io/](https://galerie
 ### Members And Subscriptions
 
 * Custom Membership page
+* Membership Tiers
 * Custom Account page for members
 * Custom Signup page
 * Custom Signin page

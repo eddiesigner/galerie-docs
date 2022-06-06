@@ -3,6 +3,7 @@
 Below I list some official tutorials that I think you might find useful since they show how to configure certain common features:
 
 * [Using the Editor](https://ghost.org/help/using-the-editor/)
+* [Create Membership Tiers ](https://ghost.org/help/tiers/)
 * [Google Analytics + Ghost](https://ghost.org/integrations/google/)
 * [Intercom + Ghost](https://ghost.org/integrations/intercom/)
 * [Mailchimp + Ghost](https://ghost.org/integrations/mailchimp/)

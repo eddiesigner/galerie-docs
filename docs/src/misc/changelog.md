@@ -1,5 +1,52 @@
 # Change Log
 
+## v2.0.0
+
+> 07/06/2022
+
+* **Ghost 5 support** 🎉
+* Membership Tiers support: [ghost.org/help/tiers/](https://ghost.org/help/tiers/)
+* New icons added: Behance, Pinterest, Discord, Stackoverflow, Podcast
+* Hero template now includes comments, related posts and posts navigation
+* Search is now way faster and more efficient
+* Fixed an issue where lists inside a toggle card had a wrong font size
+
+```
+Added files:
+
+src/sass/components/membership/_plan-switcher.scss
+
+Modified files:
+
+README.md
+custom-hero.hbs
+locales/en.json
+locales/es.json
+package.json
+partials/footer.hbs
+partials/home-hero.hbs
+partials/home-slider.hbs
+partials/membership.hbs
+partials/menu.hbs
+partials/newsletter-form.hbs
+src/docker-compose.yml
+src/js/app.js
+src/js/post.js
+src/package-lock.json
+src/package.json
+src/sass/common/_icons.scss
+src/sass/components/membership/_tier-card.scss
+src/sass/components/membership/_tiers-container.scss
+src/sass/components/post/_post-content.scss
+src/sass/fonts/galerie/Galerie.eot
+src/sass/fonts/galerie/Galerie.svg
+src/sass/fonts/galerie/Galerie.ttf
+src/sass/fonts/galerie/Galerie.woff
+src/sass/fonts/galerie/Galerie.woff2
+src/sass/hero.scss
+src/sass/membership.scss
+```
+
 ## v1.1.3
 
 > 17/05/2022
