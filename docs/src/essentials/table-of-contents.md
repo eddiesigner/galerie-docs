@@ -1,4 +1,4 @@
-# Table Of Contents
+# Table of Contents
 
 Galerie supports Table Of Contents in posts right out of the box, you can see a demo [here](https://galerie.eduardogomez.io/interview-with-daina-lightfoot-galerie-magazine/), it looks like this:
 

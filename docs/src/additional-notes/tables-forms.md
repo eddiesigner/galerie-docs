@@ -1,4 +1,4 @@
-# Tables And Forms
+# Tables and Forms
 
 If you ever need to add tables or form elements to the content of your articles, you can easily do so by using the **HTML card** that the editor provides. You can see a demo in the [Style Guide](https://galerie.eduardogomez.io/style-guide/).
 

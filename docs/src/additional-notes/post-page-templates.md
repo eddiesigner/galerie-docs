@@ -1,4 +1,4 @@
-# Post & Page Templates
+# Post and Page Templates
 
 Galerie includes the following variations for posts and pages that you can use depending on your needs:
 

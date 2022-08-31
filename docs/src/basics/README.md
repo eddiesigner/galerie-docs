@@ -56,6 +56,8 @@ You can see a live demo here: [https://galerie.eduardogomez.io/](https://galerie
 * Custom settings support
 * Accent color support
 * Full Members and subscriptions support (yes, with this theme you can turn your audience into a business)
+* Native Search support
+* Native Comments support
 * Public Previews support
 * Newsletter support
 * Translation ready (English and Spanish included)
@@ -88,7 +90,7 @@ You can see a live demo here: [https://galerie.eduardogomez.io/](https://galerie
 * Next and Previous post navigation
 * Tags in posts
 
-### Members And Subscriptions
+### Members and Subscriptions
 
 * Custom Membership page
 * Membership Tiers
@@ -103,7 +105,7 @@ You can see a live demo here: [https://galerie.eduardogomez.io/](https://galerie
 * Support for all the currencies
 * Conceal all the Members links and buttons if the option is disabled in the Ghost Admin
 
-## Help And Support
+## Help and Support
 
 This guide describes the steps to follow to get the most out of this theme, if for any reason you don't find an answer to any question, don't hesitate to contact me via [email](mailto:this.eduardo@gmail.com), I try to respond as soon as possible, no longer than one business day later.
 

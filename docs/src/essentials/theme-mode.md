@@ -1,4 +1,4 @@
-# Light & Dark Mode
+# Light and Dark Mode
 
 Galerie has three appearance modes: **Automatic** (default), **Light** and **Dark**. The user can set the preferred mode from the main menu.
 

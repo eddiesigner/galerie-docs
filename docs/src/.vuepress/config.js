@@ -80,11 +80,12 @@ module.exports = {
           '/essentials/theme-options',
           '/essentials/members',
           '/essentials/newsletter',
+          '/essentials/native-search',
+          '/essentials/comments',
           '/essentials/authors-page',
           '/essentials/tags-page',
           '/essentials/error-page',
           '/essentials/table-of-contents',
-          '/essentials/comments',
           '/essentials/theme-translation',
           '/essentials/theme-mode'
         ]

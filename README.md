@@ -45,6 +45,8 @@ Galerie is a modern and versatile Ghost theme that stands out for its impeccable
 * Ghost 5 support
 * Accent color support
 * Full Members and subscriptions support (yes, with this theme you can turn your audience into a business)
+* Native Search support
+* Native Comments support
 * Public Previews support
 * Newsletter support
 * Translation ready (English and Spanish included)
