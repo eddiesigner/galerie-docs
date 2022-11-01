@@ -1,5 +1,37 @@
 # Change Log
 
+## v2.1.1
+
+> 02/11/2022
+
+* Fixed an issue where images were not centered after pressing the zoom button in the lightbox gallery
+* Fixed an issue where uploaded images didn't fill the full width in full-wide mode
+* Update Ghost image version (development only)
+* Bump version
+
+```
+Added files:
+
++ src/sass/fonts/lightgallery/lg.woff2
++ src/sass/vendor/lightgallery/transitions/_lg-lollipop-rev.scss
+
+Modified files:
+
+* package.json
+* src/package-lock.json
+* src/docker-compose.yml
+* src/package.json
+* src/sass/components/post/_post-content.scss
+* src/sass/hero.scss
+* src/sass/vendor/lightgallery/_lg-fonts.scss
+* src/sass/vendor/lightgallery/_lg-theme-default.scss
+* src/sass/vendor/lightgallery/_lg-variables.scss
+* src/sass/vendor/lightgallery/lg-transitions.scss
+* src/sass/vendor/lightgallery/lg-zoom.scss
+* src/sass/vendor/lightgallery/lightgallery-core.scss
+* src/sass/vendor/lightgallery/lightgallery.scss
+```
+
 ## v2.1.0
 
 > 01/09/2022

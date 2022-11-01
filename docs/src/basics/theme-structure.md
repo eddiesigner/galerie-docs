@@ -40,6 +40,7 @@ The theme is organized with the following file structure:
 │   │       ├── lg.svg
 │   │       ├── lg.ttf
 │   │       └── lg.woff
+│   │       └── lg.woff2
 │   ├── images
 │   │   ├── 404.jpg
 │   │   ├── award-left.png
