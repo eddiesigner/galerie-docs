@@ -23,13 +23,13 @@ The following steps will guide you so that you can have a development environmen
 8. Open the file `src/docker-compose.yml` with a text/code editor and search for the following piece of code:
 
 ```
-WEBHOOK_SECRET=
+WEBHOOK_SECRET:
 ```
 
 9. Copy the **Signing Secret** from your Stripe Webhook and paste it in that line of code, it should look something like this:
 
 ```
-WEBHOOK_SECRET=whsec_xxxxxxxxxxxxxxxxxxxxxxx
+WEBHOOK_SECRET: whsec_xxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 10. Save your changes
