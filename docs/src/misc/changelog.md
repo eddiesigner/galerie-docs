@@ -1,5 +1,19 @@
 # Change Log
 
+## v2.1.2
+
+> 16/11/2022
+
+* Fixed an issue where transition between images in lightbox gallery didn't work properly
+* Bump version
+
+```
+Modified files:
+
+* package.json
+* src/sass/post.scss
+```
+
 ## v2.1.1
 
 > 02/11/2022
