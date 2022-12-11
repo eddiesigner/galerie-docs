@@ -1,5 +1,22 @@
 # Change Log
 
+## v2.1.3
+
+> 12/12/2022
+
+* Improve performance by preventing custom search requests when native search is enabled
+* Update Ghost Docker image version (development only)
+* Bump version
+
+```
+Modified files:
+
+* default.hbs
+* package.json
+* src/docker-compose.yml
+* src/js/app.js
+```
+
 ## v2.1.2
 
 > 16/11/2022
