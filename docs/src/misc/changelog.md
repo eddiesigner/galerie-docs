@@ -1,5 +1,42 @@
 # Change Log
 
+## v2.2.0
+
+> 13/03/2023
+
+* Added support for excerpt in post tiles: [essentials/theme-options.html#show-post-excerpt](/essentials/theme-options.html#show-post-excerpt)
+* The Newsletter form at the bottom of the page is now hidden when the user is logged-in
+* Added support for Name field in the sign up form
+* New icons added: Paypal, Spotify
+* Added a fading effect in the public preview of posts to make it more noticeable that more content is available
+* Updated Ghost image version (development only)
+* Bump version
+
+```
+Modified files:
+
+locales/en.json
+locales/es.json
+members/signup.hbs
+package.json
+partials/loop.hbs
+partials/newsletter-form.hbs
+partials/post-card.hbs
+src/docker-compose.yml
+src/js/app.js
+src/sass/common/_icons.scss
+src/sass/common/_variables.scss
+src/sass/components/auth/_auth-form.scss
+src/sass/components/common/_posts-grid.scss
+src/sass/components/post/_post-paywall.scss
+src/sass/components/posts/_post-card.scss
+src/sass/fonts/galerie/Galerie.eot
+src/sass/fonts/galerie/Galerie.svg
+src/sass/fonts/galerie/Galerie.ttf
+src/sass/fonts/galerie/Galerie.woff
+src/sass/fonts/galerie/Galerie.woff2
+```
+
 ## v2.1.3
 
 > 12/12/2022

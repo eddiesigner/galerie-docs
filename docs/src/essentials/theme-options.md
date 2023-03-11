@@ -67,6 +67,8 @@ Like other parts of the theme, this can also be configured.
 
 ![Post tile](https://res.cloudinary.com/edev/image/upload/v1633376347/galerie/tile.jpg)
 
+### Display post titles always
+
 To always display the title and the rest of the post tile information you can enable the option "Always show post title" in the theme design seetings as shown bellow:
 
 ![](https://res.cloudinary.com/edev/image/upload/v1643474900/galerie/CleanShot_2022-01-29_at_17.47.37.png)
@@ -81,6 +83,8 @@ If you are not using Ghost 4.20.0 or later and Galerie 1.1.0 or later you can in
 </style>
 ```
 
+### Change the height of the post tiles
+
 If you want to change the height of the tiles on desktop you can inject the following code in the Ghost Admin:
 
 ```html
@@ -91,6 +95,21 @@ If you want to change the height of the tiles on desktop you can inject the foll
   }
 </style>
 ```
+
+
+### Show post excerpt
+
+If you want to show the excerpt in the post tiles you can inject the following code in the Ghost Admin:
+
+```html
+<style>
+  :root {
+    --show-post-card-excerpt: block; /* The default value is none */
+  }
+</style>
+```
+
+Please note that this change will be visible on desktop devices only, on mobile devices it will still be hidden unless the post doesn't have a feature image. As of Galerie version 2.2.0 the post excerpt will always be visible regardless of this option as long as the post doesn't have a feature image.
 
 ## Disable Post Images Lightbox
 

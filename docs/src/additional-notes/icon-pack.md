@@ -2,7 +2,7 @@
 
 Galerie includes the following icons in case you want to use them somewhere in your website:
 
-![](https://res.cloudinary.com/edev/image/upload/v1654528007/galerie/Screenshot_2022-06-06_at_17-06-31_Galerie_Web_Font.png)
+![](https://res.cloudinary.com/edev/image/upload/v1678554657/galerie/icon-pack.png)
 
 | Icon name        | Class name      |
 |:------------:|:-------------:|
@@ -66,6 +66,8 @@ Galerie includes the following icons in case you want to use them somewhere in y
 | Thumbs down | `icon-thumbs-down` |
 | Wallet | `icon-wallet` |
 | Snapchat | `icon-snapchat` |
+| Paypal | `icon-paypal` |
+| Spotify | `icon-spotify` |
 
 To use any of these icons you should use a code like this:
 
