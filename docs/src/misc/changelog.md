@@ -1,5 +1,101 @@
 # Change Log
 
+## v2.3.0
+> 05/06/2023
+
+* Native support for [Announcement bar](https://ghost.org/changelog/announcement-bar/)
+* Introduced a new custom setting to use only Portal for Members instead of the related features provided by the theme ([learn more](../essentials/members.html#portal))
+* Implemented the Lightgbox gallery from scratch to fix different issues and allow for more advanced customization and enable the use of plugins to add additional features ([learn more](../essentials/theme-options.html#post-images-lightbox))
+* Removed custom setting "Use Normal Size For The First Letter"
+* Sort "Related posts" by recently published
+* Updated Ghost image version (development only)
+* Bump version number
+
+```
+Added files:
+
++ partials/post-lightbox.hbs
++ src/js/lightbox.js
++ src/sass/components/header/_announcement-bar.scss
++ src/vendor/lightgallery/css/lg-transitions.css
++ src/vendor/lightgallery/css/lightgallery-bundle.min.css
++ src/vendor/lightgallery/fonts/lg.svg
++ src/vendor/lightgallery/fonts/lg.ttf
++ src/vendor/lightgallery/fonts/lg.woff
++ src/vendor/lightgallery/fonts/lg.woff2
++ src/vendor/lightgallery/images/loading.gif
++ src/vendor/lightgallery/js/lightgallery.min.js
++ src/vendor/lightgallery/js/plugins/lg-autoplay.min.js
++ src/vendor/lightgallery/js/plugins/lg-comment.min.js
++ src/vendor/lightgallery/js/plugins/lg-fullscreen.min.js
++ src/vendor/lightgallery/js/plugins/lg-hash.min.js
++ src/vendor/lightgallery/js/plugins/lg-medium-zoom.min.js
++ src/vendor/lightgallery/js/plugins/lg-pager.min.js
++ src/vendor/lightgallery/js/plugins/lg-relative-caption.min.js
++ src/vendor/lightgallery/js/plugins/lg-rotate.min.js
++ src/vendor/lightgallery/js/plugins/lg-share.min.js
++ src/vendor/lightgallery/js/plugins/lg-thumbnail.min.js
++ src/vendor/lightgallery/js/plugins/lg-video.min.js
++ src/vendor/lightgallery/js/plugins/lg-vimeo-thumbnail.min.js
++ src/vendor/lightgallery/js/plugins/lg-zoom.min.js
+
+Modified files:
+
+* custom-hero.hbs
+* custom-no-newsletter.hbs
+* custom-toc.hbs
+* default.hbs
+* package.json
+* page.hbs
+* partials/footer.hbs
+* partials/home-hero.hbs
+* partials/home-slider.hbs
+* partials/membership.hbs
+* partials/menu.hbs
+* partials/post-lightbox.hbs
+* partials/post-paywall.hbs
+* partials/related-posts.hbs
+* post.hbs
+* src/docker-compose.yml
+* src/js/app.js
+* src/js/lightbox.js
+* src/js/post.js
+* src/package-lock.json
+* src/package.json
+* src/sass/app.scss
+* src/sass/common/_global.scss
+* src/sass/components/post/_post-content.scss
+* src/sass/hero.scss
+* src/sass/post.scss
+* src/webpack.mix.js
+
+Deleted files:
+
+- src/sass/vendor/lightgallery/_lg-fonts.scss
+- src/sass/vendor/lightgallery/_lg-mixins.scss
+- src/sass/vendor/lightgallery/_lg-theme-default.scss
+- src/sass/vendor/lightgallery/_lg-variables.scss
+- src/sass/vendor/lightgallery/lg-fullscreen.scss
+- src/sass/vendor/lightgallery/lg-transitions.scss
+- src/sass/vendor/lightgallery/lg-zoom.scss
+- src/sass/vendor/lightgallery/lightgallery-core.scss
+- src/sass/vendor/lightgallery/lightgallery.scss
+- src/sass/vendor/lightgallery/transitions/_lg-lollipop-rev.scss
+- src/sass/vendor/lightgallery/transitions/_lg-lollipop.scss
+- src/sass/vendor/lightgallery/transitions/_lg-scale-up.scss
+- src/sass/vendor/lightgallery/transitions/_lg-slide-circular-vertical.scss
+- src/sass/vendor/lightgallery/transitions/_lg-slide-circular.scss
+- src/sass/vendor/lightgallery/transitions/_lg-slide-vertical-growth.scss
+- src/sass/vendor/lightgallery/transitions/_lg-slide-vertical.scss
+- src/sass/vendor/lightgallery/transitions/_lg-soft-zoom.scss
+- src/sass/vendor/lightgallery/transitions/_lg-zoom-in-big.scss
+- src/sass/vendor/lightgallery/transitions/_lg-zoom-in-out.scss
+- src/sass/vendor/lightgallery/transitions/_lg-zoom-in.scss
+- src/sass/vendor/lightgallery/transitions/_lg-zoom-out-big.scss
+- src/sass/vendor/lightgallery/transitions/_lg-zoom-out-in.scss
+- src/sass/vendor/lightgallery/transitions/_lg-zoom-out.scss
+```
+
 ## v2.2.0
 
 > 13/03/2023
@@ -15,26 +111,26 @@
 ```
 Modified files:
 
-locales/en.json
-locales/es.json
-members/signup.hbs
-package.json
-partials/loop.hbs
-partials/newsletter-form.hbs
-partials/post-card.hbs
-src/docker-compose.yml
-src/js/app.js
-src/sass/common/_icons.scss
-src/sass/common/_variables.scss
-src/sass/components/auth/_auth-form.scss
-src/sass/components/common/_posts-grid.scss
-src/sass/components/post/_post-paywall.scss
-src/sass/components/posts/_post-card.scss
-src/sass/fonts/galerie/Galerie.eot
-src/sass/fonts/galerie/Galerie.svg
-src/sass/fonts/galerie/Galerie.ttf
-src/sass/fonts/galerie/Galerie.woff
-src/sass/fonts/galerie/Galerie.woff2
+* locales/en.json
+* locales/es.json
+* members/signup.hbs
+* package.json
+* partials/loop.hbs
+* partials/newsletter-form.hbs
+* partials/post-card.hbs
+* src/docker-compose.yml
+* src/js/app.js
+* src/sass/common/_icons.scss
+* src/sass/common/_variables.scss
+* src/sass/components/auth/_auth-form.scss
+* src/sass/components/common/_posts-grid.scss
+* src/sass/components/post/_post-paywall.scss
+* src/sass/components/posts/_post-card.scss
+* src/sass/fonts/galerie/Galerie.eot
+* src/sass/fonts/galerie/Galerie.svg
+* src/sass/fonts/galerie/Galerie.ttf
+* src/sass/fonts/galerie/Galerie.woff
+* src/sass/fonts/galerie/Galerie.woff2
 ```
 
 ## v2.1.3

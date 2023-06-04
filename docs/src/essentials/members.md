@@ -102,15 +102,17 @@ If you want to know how to create and configure your own custom tiers you can ch
 
 ## Portal
 
-[Portal](https://ghost.org/changelog/portal/) is a new feature that comes enabled by default in the latest versions of Ghost, among some of its options is the option to display a button to subscribe which is visible on all pages of your site.
+If you want to use [Portal](https://ghost.org/help/setting-up-portal/) for all Members functionalities instead of the ones provided by the theme you can enable the "**Portal for membership experience**" option found in the theme settings as shown in the following screenshot:
 
-Although this button could be useful in some situations, I recommend that you disable it since Galerie already manages everything related to memberships, also because for now the button and the interface that is displayed when you press it are not very customizable and may not work very well with the language and design of your site.
+![](https://res.cloudinary.com/edev/image/upload/v1685884212/galerie/CleanShot_2023-06-04_at_15.09.33.png)
 
-To disable it head to your Ghost Admin and go to **Settings**, then **Membership** and click on **Customize Portal**.
+By enabling this option all links and buttons for signup, login, Newsletter, account and other Member related links will show the Portal interface instead of linking to the custom pages that the theme provides.
 
-In the window that appears you only have to disable the "**Show Portal button**" option, save the changes and that's it, as shown in the following screenshot:
+This also means that if you want to use Portal you don't need to follow the steps described above in the setup section as the theme will use the Portal interface itself that Ghost provides by default.
 
-![Portal settings](https://res.cloudinary.com/edev/image/upload/v1633177318/galerie/disable-portal.png)
+::: warning
+This option is only available if you're using Ghost 4.20.0 or later and Galerie 2.3.0 or later.
+:::
 
 ## Disable Members
 

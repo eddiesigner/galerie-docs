@@ -111,13 +111,58 @@ If you want to show the excerpt in the post tiles you can inject the following c
 
 Please note that this change will be visible on desktop devices only, on mobile devices it will still be hidden unless the post doesn't have a feature image. As of Galerie version 2.2.0 the post excerpt will always be visible regardless of this option as long as the post doesn't have a feature image.
 
-## Disable Post Images Lightbox
+## Post Images Lightbox
 
 By default, when you click on any of the images that appear in the body of an article, it is displayed in a lightbox where you can zoom or view other images of the article. This is especially useful to be able to appreciate the images in a higher quality.
 
 Below you can see an example of what this functionality looks like:
 
 ![Image lightbox](https://res.cloudinary.com/edev/image/upload/v1633338570/galerie/image-lightbox.jpg)
+
+### Adding custom config and additional plugins
+
+Galerie uses the [lightGallery](https://www.lightgalleryjs.com/) plugin to display the images of a post as a gallery in which they can stand out and be displayed in a more detailed way. Although the theme has a default configuration that in most cases is more than enough, some users wanted to be able to provide a custom configuration and even be able to add additional functions, now this is possible thanks to this new theme option.
+
+To extend the default configuration of the lightGallery plugin you can inject the following code in the Ghost Admin (Settings --> Code injection --> Site Footer):
+
+```html
+<script>
+  const customLightGalleryConfig = {
+    speed: 500,
+    mode: 'lg-fade',
+    download: true,
+  };
+</script>
+```
+
+You can find all the available core settings in the [plugin's documentation](https://www.lightgalleryjs.com/docs/settings/).
+
+lightGallery also offers the possibility to add additional functionality through plugins, for example, to add the [Thumbnails plugin](https://www.lightgalleryjs.com/docs/settings/#thumbnails-plugin) you can inject the following code in the Ghost Admin (Settings --> Code injection --> Site Footer):
+
+```html
+<script src="/assets/vendor/lightgallery/js/plugins/lg-thumbnail.min.js"></script>
+
+<script>
+  const customLightGalleryPlugins = [lgThumbnail];
+  const customLightGalleryConfig = {
+    thumbnail: true,
+  };
+</script>
+```
+
+All the following plugins are available:
+
+`lgZoom`, `lgAutoplay`, `lgComment`, `lgFullscreen` , `lgHash`, `lgPager`, `lgRotate`, `lgShare`, `lgThumbnail`, `lgVideo`, `lgMediumZoom`
+
+Please refer to the [plugin's documentation](https://www.lightgalleryjs.com/docs/settings/) to learn about all the possible options for each plugin.
+
+As you may have noticed, in this case you also have to add the file of the plugin you want to use through the `src` attribute in the `script` tag, you can find all the available files in the theme's folder `assets/vendor/lightgallery/js/plugins/`
+
+::: warning
+This option is only available if you're using Ghost 4.20.0 or later and Galerie 2.3.0 or later.
+:::
+
+### Disable Post Images Lightbox
 
 If for some reason you wish to disable this feature completely you can do it in the theme design settings as shown bellow:
 
@@ -135,7 +180,7 @@ If you are not using Ghost 4.20.0 or later and Galerie 1.1.0 or later you can do
 
 2. Save your changes.
 
-### Disable Lightbox individually
+#### Disable Lightbox individually
 
 On the other hand, if you want to disable this function only for a specific image you can add that image using the **HTML card** where you will have to use a code like this:
 
@@ -169,13 +214,16 @@ By default the size of the first letter of the first paragraph of an article is 
 
 ![](https://res.cloudinary.com/edev/image/upload/v1643479210/galerie/CleanShot_2022-01-29_at_18.59.27.png)
 
-If for some reason you prefer the first letter to be the same size as the rest of the text, you can do so by enabling the "First letter in normal size" option in the theme design settings as shown bellow:
+If for some reason you prefer the first letter to be the same size as the rest of the text, you can do so by injecting the following code in the Ghost Admin (Settings --> Code injection --> Site Header):
 
-![](https://res.cloudinary.com/edev/image/upload/v1643476412/galerie/CleanShot_2022-01-29_at_18.13.00.png)
-
-::: warning
-This option is only available if you're using Ghost 4.20.0 or later and Galerie 1.1.0 or later.
-:::
+```html
+<style>
+  :root {
+    --first-letter-size: 100%;
+    --first-letter-vertical-align: none;
+  }
+</style>
+```
 
 ## Configure Loading Animation
 
