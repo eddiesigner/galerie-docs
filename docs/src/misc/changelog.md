@@ -1,5 +1,24 @@
 # Change Log
 
+## v2.4.0
+> 01/08/2023
+
+* [Signup cards](https://ghost.org/changelog/signup-cards/) support
+* Fixed an issue where the time information wasn't correctly aligned when posts were written by multiple authors
+* Updated Ghost image version (development only)
+* Bump version number
+
+```
+Modified files:
+
+* package.json
+* partials/post-header.hbs
+* src/docker-compose.yml
+* src/js/lightbox.js
+* src/sass/components/post/_post-content.scss
+* src/sass/components/post/_post-header.scss
+```
+
 ## v2.3.0
 > 05/06/2023
 
