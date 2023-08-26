@@ -1,5 +1,27 @@
 # Change Log
 
+## v2.5.0
+> 28/08/2023
+
+* Support for [better landing pages](https://ghost.org/changelog/create-landing-pages/)
+* Support for [Header card improvements](https://ghost.org/changelog/header-card-improvements/)
+* Updated Ghost image version (development only)
+* Bump version number
+
+```
+Modified files:
+
+* custom-hero.hbs
+* custom-no-newsletter.hbs
+* custom-toc.hbs
+* package.json
+* page.hbs
+* src/docker-compose.yml
+* src/js/lightbox.js
+* src/sass/components/post/_post-content.scss
+* src/sass/components/post/_post-share.scss
+```
+
 ## v2.4.0
 > 01/08/2023
 
