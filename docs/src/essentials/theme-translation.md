@@ -22,10 +22,10 @@ To find more info about theme translation please head over the [Ghost documentat
 If you want to replace any of the texts that come with the theme you can do the following:
 
 1. Unzip the theme folder (`galerie.zip`).
-2. Open the file `/locales/en.json` (for Egnlish) with some text/code editor.
+2. Open the file `/locales/en.json` (for English) with some text/code editor.
 3. Search for the text you want to change and replace the text on the **right side** with your own text.
 
-For example, if you want to replace the text `Subscribe now and have access to all our stories, enjoy exclusive content and stay up to date with constant updates.` with the tex `Signup now to have access to all the premium content.` you can search for it within the file and replace it on the **right side**, then it should look like this:
+For example, if you want to replace the text `Subscribe now and have access to all our stories, enjoy exclusive content and stay up to date with constant updates.` with the text `Signup now to have access to all the premium content.` you can search for it within the file and replace it on the **right side**, then it should look like this:
 
 ```json
 "Subscribe now and have access to all our stories, enjoy exclusive content and stay up to date with constant updates.": "Signup now to have access to all the premium content."
