@@ -1,5 +1,32 @@
 # Change Log
 
+## v2.6.0
+
+> 22/07/2024
+
+* Added French locale translations (thanks to **Nabil**)
+* Fixed an issue where social links in author page didn't work on mobile devices
+* Updated Docker image (development only)
+* Bump version number
+
+```
+Added files:
+
++ github/workflows/deploy-theme.yml
++ locales/fr.json
++ src/.env.example
++ src/.gitignore
++ src/deploy/index.js
+
+Modified files:
+
+* package.json
+* src/docker-compose.yml
+* src/package-lock.json
+* src/package.json
+* src/sass/components/author/_author-header.scss
+```
+
 ## v2.5.0
 > 28/08/2023
 
