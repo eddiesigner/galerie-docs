@@ -87,6 +87,7 @@ module.exports = {
           '/essentials/error-page',
           '/essentials/table-of-contents',
           '/essentials/theme-translation',
+          '/essentials/custom-fonts',
           '/essentials/theme-mode'
         ]
       },

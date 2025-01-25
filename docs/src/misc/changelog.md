@@ -1,5 +1,17 @@
 # Change Log
 
+## v2.7.0
+> 17/01/2025
+
+* Added support for [custom fonts](/essentials/custom-fonts.html)
+* Updated icon for X (formerly Twitter)
+* Yearly plans are now displayed by default on the Membership page
+* Added a button on the Account page so members can edit their account details
+* Fixed an issue where content cards were not displayed correctly in dark mode
+* Fixed an issue where the price of a subscription plan had a wrong format under certain circumstances
+* Updated Docker image (development only)
+* Bump version number
+
 ## v2.6.0
 
 > 22/07/2024
