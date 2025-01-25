@@ -13,13 +13,6 @@
 * Bump version number
 
 ```
-Added files:
-
-+ github/workflows/deploy-theme.yml
-+ src/.env.example
-+ src/.gitignore
-+ src/deploy/index.js
-
 Modified files:
 
 * locales/en.json
