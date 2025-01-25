@@ -12,6 +12,37 @@
 * Updated Docker image (development only)
 * Bump version number
 
+```
+Added files:
+
++ github/workflows/deploy-theme.yml
++ src/.env.example
++ src/.gitignore
++ src/deploy/index.js
+
+Modified files:
+
+* locales/en.json
+* locales/es.json
+* members/account.hbs
+* package.json
+* partials/author-social-links.hbs
+* partials/membership.hbs
+* partials/post-share.hbs
+* partials/social-links.hbs
+* src/docker-compose.yml
+* src/sass/common/_global.scss
+* src/sass/common/_icons.scss
+* src/sass/components/auth/_auth-form.scss
+* src/sass/components/menu/_theme-toggle.scss
+* src/sass/components/post/_post-content.scss
+* src/sass/fonts/galerie/Galerie.eot
+* src/sass/fonts/galerie/Galerie.svg
+* src/sass/fonts/galerie/Galerie.ttf
+* src/sass/fonts/galerie/Galerie.woff
+* src/sass/fonts/galerie/Galerie.woff2
+```
+
 ## v2.6.0
 
 > 22/07/2024
