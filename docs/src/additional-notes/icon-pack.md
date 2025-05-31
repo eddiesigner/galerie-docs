@@ -2,14 +2,13 @@
 
 Galerie includes the following icons in case you want to use them somewhere in your website:
 
-![](https://res.cloudinary.com/edev/image/upload/v1737816323/galerie/Screenshot_2025-01-25_at_15-43-38_Galerie_Web_Font.jpg)
-
 |       Icon name        |          Class name           |
 |:----------------------:|:-----------------------------:|
 |       Apple mac        |       `icon-apple-mac`        |
 |       Arrow left       |       `icon-arrow-left`       |
 |      Arrow right       |      `icon-arrow-right`       |
 |    Behance squared     |    `icon-behance-squared`     |
+|        Bluesky         |        `icon-bluesky`         |
 |        Calendar        |        `icon-calendar`        |
 |         Camera         |         `icon-camera`         |
 |         Cancel         |         `icon-cancel`         |
@@ -39,6 +38,7 @@ Galerie includes the following icons in case you want to use them somewhere in y
 |        Linkedin        |        `icon-linkedin`        |
 |          Lock          |          `icon-lock`          |
 |          Mail          |          `icon-mail`          |
+|        Mastodon        |        `icon-mastodon`        |
 |         Medium         |         `icon-medium`         |
 |       Menu scale       |       `icon-menu-scale`       |
 |       Modern tv        |       `icon-modern-tv`        |
@@ -60,6 +60,7 @@ Galerie includes the following icons in case you want to use them somewhere in y
 |      Star outline      |      `icon-star-outline`      |
 |       Sun light        |       `icon-sun-light`        |
 |        Telegram        |        `icon-telegram`        |
+|        Threads         |        `icon-threads`         |
 |      Thumbs down       |      `icon-thumbs-down`       |
 |       Thumbs up        |       `icon-thumbs-up`        |
 |         Tiktok         |         `icon-tiktok`         |

@@ -1,5 +1,29 @@
 # Change Log
 
+## v2.8.0
+> 02/06/2025
+
+* Added support for [more staff social links](https://ghost.org/changelog/social-links/)
+* Added Bluesky and Mastodon icons
+* Updated Docker image (development only)
+* Bump version number
+
+```
+Modified files:
+
+* package.json
+* partials/author-social-links.hbs
+* src/docker-compose.yml
+* src/sass/common/_icons.scss
+* src/sass/components/author/_author-header.scss
+* src/sass/components/author/_author-social-list.scss
+* src/sass/fonts/galerie/Galerie.eot
+* src/sass/fonts/galerie/Galerie.svg
+* src/sass/fonts/galerie/Galerie.ttf
+* src/sass/fonts/galerie/Galerie.woff
+* src/sass/fonts/galerie/Galerie.woff2
+```
+
 ## v2.7.0
 > 17/01/2025
 
