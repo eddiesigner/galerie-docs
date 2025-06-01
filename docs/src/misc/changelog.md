@@ -4,7 +4,7 @@
 > 02/06/2025
 
 * Added support for [more staff social links](https://ghost.org/changelog/social-links/)
-* Added Bluesky and Mastodon icons
+* Added Bluesky, Mastodon and Threads icons
 * Updated Docker image (development only)
 * Bump version number
 
