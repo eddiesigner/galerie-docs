@@ -1,5 +1,19 @@
 # Change Log
 
+## v2.9.0
+> 17/07/2025
+
+* Fixed an issue where opening an image in the lightbox would not display it in its original size
+* Bump version number
+
+```
+Modified files:
+
+* package.json
+* src/js/lightbox.js
+```
+
+
 ## v2.8.0
 > 02/06/2025
 
