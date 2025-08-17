@@ -1,5 +1,27 @@
 # Change Log
 
+## Version 3.0.0
+> 18/08/2025
+
+* **Ghost 6 support** 🎉
+* Fixed the size of the arrow icon which was larger than it should be
+* Updated Docker image (development only)
+* Bump version number
+
+````
+Modified files:
+
+* README.md
+* package.json
+* page-authors.hbs
+* page-tags.hbs
+* partials/membership.hbs
+* src/docker-compose.yml
+* src/sass/components/auth/_auth-form.scss
+* src/sass/components/home/_home-slider.scss
+* src/sass/components/tags/_tag-card.scss
+````
+
 ## v2.9.0
 > 17/07/2025
 
