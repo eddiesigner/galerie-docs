@@ -8,7 +8,7 @@
 * Use new `social_url` helper instead of `twitter_url` and `facebook_url` helpers
 * Use Vite instead of Webpack for local development
 * Updated Docker image (development only)
-* Bump version number.
+* Bump version number
 
 ````
 New files:
